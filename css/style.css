@@ -11,20 +11,33 @@ a:hover{text-decoration:none;}
     display:table; 
 } 
 .clearfix:after{clear:both;} 
+/*@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?inxc63');
+  src:  url('../fonts/icomoon.eot?inxc63#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?inxc63') format('truetype'),
+    url('../fonts/icomoon.woff?inxc63') format('woff'),
+    url('../fonts/icomoon.svg?inxc63#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
 
 /*header*/
 .position_r{position: relative;}
 .position_ab{position: absolute;}
-.header_height{height: 102px;line-height: 102px;}
+.header_height{height: 1.59375rem;line-height: 1.59375rem;position:fixed;top: 0;left: 0;z-index: 1; }
 header{width: 100%;background-color: #fbcc02;font-family: 宋体;font-size: ;color: #333;}
-header h1{text-align: center;width: 100%;font-size: 40px;}
-header a.title{font-size: 36px;text-align: left;left: 18px;}
-header a.home{font-size: 36px;text-align: right;right: 29px;top:0;}
-.list{background-color: #eeeeee;padding: 33px 18px;}
-.list ul li{height: 124px;border-radius: 10px;border: 1px solid #dadada; padding: 13px 0 13px 19px;font-family: MicrosoftYahei;background-color: #fff;}
-.list ul li .title{font-size: 32px;color: #333;height: 54px;line-height: 54px;font-weight: bold;}
-.list ul li .about{font-size: 24px;color: #a9a9a9;height: 45px;line-height: 54px;font-weight: bold;}
-.flag{position: absolute;right: 85px;top: 30px;}
-.loading{text-align: center;height: 80px;line-height: 80px;}
+header h1{text-align: center;width: 100%;font-size: 0.625rem;}
+header a.title{font-size: 36px;text-align: left;left: 0.28125rem;}
+header a.home{font-size: 0.5rem;text-align: right;right: 0.453125rem;top:0;font-family: 'icomoon';}
+/*header a.home:before {
+  content: "\e906";
+}*/
+.list{background-color: #eeeeee;padding: 0.515625rem 0.28125rem;margin-top: 1.59375rem;}
+.list ul li{height: 1.9375rem;border-radius: 10px;border: 1px solid #dadada; padding: 0.203125rem 0 0.203125rem 0.296875rem;font-family: MicrosoftYahei;background-color: #fff;margin-bottom: 0.4375rem;}
+.list ul li .title{font-size: 32px;color: #333;height: 0.84375rem;line-height: 0.84375rem;font-weight: bold;}
+.list ul li .about{font-size: 24px;color: #a9a9a9;height: 0.703125rem;line-height: 0.703125rem;font-weight: bold;}
+.flag{position: absolute;right: 1.328125rem;top: 0.46875rem;}
+.loading{text-align: center;height: 1.25rem;line-height: 1.25rem;}
 
 
